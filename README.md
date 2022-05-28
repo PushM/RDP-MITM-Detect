@@ -16,8 +16,8 @@ source rdp-venv/bin/activate
 
 pip install -r requirements.txt
 
-sudo rdp-venv/bin/python3 rdpmitm_prober.py 47.104.217.64
-//检测目标ip是否为恶意服务端
+sudo rdp-venv/bin/python3 rdpmitm_prober.py rdp_ip
+//rdp_ip为待测rdp服务端ip
 ```
 
 data文件夹中为分类器训练代码和数据。
